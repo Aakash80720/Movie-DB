@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+ background-color: #111 !important;
+  
+}
+.app{
+ 
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.app::-webkit-scrollbar{
+  display:none;
+}

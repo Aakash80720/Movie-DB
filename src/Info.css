@@ -1,0 +1,28 @@
+.trailer{
+    margin-top: 50px;
+}
+.poster{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+.poster>img{
+    max-width: 250px;
+    object-fit: contain;
+    margin-right: 20px;
+    z-index: 1;
+   
+}
+.profiles{
+    margin-top: 13%;
+}
+.tags{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+h4{
+    margin-left: 20px;
+    margin-top: 20px;
+}
