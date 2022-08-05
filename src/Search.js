@@ -14,7 +14,7 @@ function Search() {
     // const [state, setstate] = useState(false)
     const history = createBrowserHistory({forceRefresh:true})
         async function fetchData(i) {
-            const request = await axios.get(`/SearchMovie/k_24xyzip8/${i}`);
+            const request = await axios.get(`/SearchMovie/k_9b7s4sz/${i}`);
             setSearchmovie([searchmovie,request.data.results]);
             return request;      
           }
